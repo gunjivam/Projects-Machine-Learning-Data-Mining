@@ -1,0 +1,207 @@
+@relation Gender_Inequality_Index
+
+@attribute ﻿Country {Norway,Australia,Switzerland,Denmark,Netherlands,Germany,Ireland,'United States',Canada,'New Zealand',Singapore,'Hong Kong China (SAR)',Liechtenstein,Sweden,'United Kingdom',Iceland,'Korea (Republic of)',Israel,Luxembourg,Japan,Belgium,France,Austria,Finland,Slovenia,Spain,Italy,'Czech Republic',Greece,Estonia,'Brunei Darussalam',Cyprus,Qatar,Andorra,Slovakia,Poland,Lithuania,Malta,'Saudi Arabia',Argentina,'United Arab Emirates',Chile,Portugal,Hungary,Bahrain,Latvia,Croatia,Kuwait,Montenegro,Belarus,'Russian Federation',Oman,Romania,Uruguay,Bahamas,Kazakhstan,Barbados,'Antigua and Barbuda',Bulgaria,Palau,Panama,Malaysia,Mauritius,Seychelles,'Trinidad and Tobago',Serbia,Cuba,Lebanon,'Costa Rica','Iran (Islamic Republic of)','Venezuela (Bolivarian Republic of)',Turkey,'Sri Lanka',Mexico,Brazil,Georgia,'Saint Kitts and Nevis',Azerbaijan,Grenada,Jordan,'The former Yugoslav Republic of Macedonia',Ukraine,Algeria,Peru,Albania,Armenia,'Bosnia and Herzegovina',Ecuador,'Saint Lucia',China,Fiji,Mongolia,Thailand,Dominica,Libya,Tunisia,Colombia,'Saint Vincent and the Grenadines',Jamaica,Tonga,Belize,'Dominican Republic',Suriname,Maldives,Samoa,Botswana,'Moldova (Republic of)',Egypt,Turkmenistan,Gabon,Indonesia,Paraguay,'Palestine State of',Uzbekistan,Philippines,'El Salvador','South Africa','Viet Nam','Bolivia (Plurinational State of)',Kyrgyzstan,Iraq,'Cabo Verde','Micronesia (Federated States of)',Guyana,Nicaragua,Morocco,Namibia,Guatemala,Tajikistan,India,Honduras,Bhutan,Timor-Leste,'Syrian Arab Republic',Vanuatu,Congo,Kiribati,'Equatorial Guinea',Zambia,Ghana,'Lao Peoples Democratic Republic',Bangladesh,Cambodia,'Sao Tome and Principe',Kenya,Nepal,Pakistan,Myanmar,Angola,Swaziland,'Tanzania (United Republic of)',Nigeria,Cameroon,Madagascar,Zimbabwe,Mauritania,'Solomon Islands','Papua New Guinea',Comoros,Yemen,Lesotho,Togo,Haiti,Rwanda,Uganda,Benin,Sudan,Djibouti,'South Sudan',Senegal,Afghanistan,'Côte dIvoire',Malawi,Ethiopia,Gambia,'Congo (Democratic Republic of the)',Liberia,Guinea-Bissau,Mali,Mozambique,'Sierra Leone',Guinea,'Burkina Faso',Burundi,Chad,Eritrea,'Central African Republic',Niger,'Korea (Democratic Peoples Rep. of)','Marshall Islands',Monaco,Nauru,'San Marino',Somalia,Tuvalu}
+@attribute Maternal_mortality_ratio numeric
+@attribute Adolescent_birth_rate numeric
+@attribute Share_of_seats_in_parliament numeric
+@attribute Population_with_at_least_some_secondary_education_Female numeric
+@attribute Population_with_at_least_some_secondary_education_Male numeric
+@attribute 'Labour_force_participation_rate_Female ' numeric
+@attribute 'Labour_force_participation_rate_Male ' numeric
+
+@data
+Norway,4,7.8,39.6,97.4,96.7,61.2,68.7
+Australia,6,12.1,30.5,94.3,94.6,58.8,71.8
+Switzerland,6,1.9,28.5,95,96.6,61.8,74.9
+Denmark,5,5.1,38,95.5,96.6,58.7,66.4
+Netherlands,6,6.2,36.9,87.7,90.5,58.5,70.6
+Germany,7,3.8,36.9,96.3,97,53.6,66.4
+Ireland,9,8.2,19.9,80.5,78.6,53.1,68.1
+'United States',28,31,19.4,95.1,94.8,56.3,68.9
+Canada,11,14.5,28.2,100,100,61.6,71
+'New Zealand',8,25.3,31.4,95,95.3,62,73.8
+Singapore,6,6.1,25.3,74.1,81,58.8,77.2
+'Hong Kong China (SAR)',?,3.3,?,72.2,79.2,51.3,67.8
+Liechtenstein,?,?,20,?,?,?,?
+Sweden,4,6.5,43.6,86.5,87.3,60.3,67.9
+'United Kingdom',8,25.8,23.5,99.8,99.9,55.7,68.7
+Iceland,4,11.5,41.3,91,91.6,70.5,77.4
+'Korea (Republic of)',27,2.2,16.3,77.1,89.1,50.1,72.1
+Israel,2,7.8,22.5,84.4,87.3,57.9,69.1
+Luxembourg,11,8.4,28.3,100,100,50.7,64.6
+Japan,6,5.4,11.6,87,85.8,48.8,70.4
+Belgium,6,6.7,42.4,77.5,82.9,47.5,59.3
+France,12,5.7,25.7,78,83.2,50.7,61.6
+Austria,4,4.1,30.3,100,100,54.6,67.7
+Finland,4,9.2,42.5,100,100,55.7,64
+Slovenia,7,0.6,27.7,95.8,98,52.3,63.2
+Spain,4,10.6,38,66.8,73.1,52.5,65.8
+Italy,4,4,30.1,71.3,80.5,39.6,59.5
+'Czech Republic',5,4.9,18.9,99.9,99.7,51.1,68.3
+Greece,5,11.9,21,59.5,67,44.2,62.5
+Estonia,11,16.8,19.8,100,100,56.2,68.9
+'Brunei Darussalam',27,23,?,63.9,67.8,52.6,75.3
+Cyprus,10,5.5,12.5,76,81.7,56,71.1
+Qatar,6,9.5,0,66.7,59,50.8,95.5
+Andorra,?,?,50,49.5,49.3,?,?
+Slovakia,7,15.9,18.7,99.1,99.5,51.1,68.6
+Poland,3,12.2,22.1,79.4,85.5,48.9,64.9
+Lithuania,11,10.6,23.4,89.1,94.3,55.8,67.3
+Malta,9,18.2,13,68.6,78.2,37.9,66.3
+'Saudi Arabia',16,10.2,19.9,60.5,70.3,20.2,78.3
+Argentina,69,54.4,36.8,56.3,57.6,47.5,75
+'United Arab Emirates',8,27.6,17.5,73.1,61.2,46.5,92
+Chile,22,55.3,15.8,73.3,76.4,49.2,74.8
+Portugal,8,12.6,31.3,47.7,48.2,54.9,66.2
+Hungary,14,12.1,10.1,97.9,98.7,44.8,60
+Bahrain,22,13.8,15,56.7,51.4,39.2,86.9
+Latvia,13,13.5,18,98.9,99,54.9,67.6
+Croatia,13,12.7,25.8,85,93.6,44.7,58.4
+Kuwait,14,14.5,1.5,55.6,56.3,43.6,83.1
+Montenegro,7,15.2,17.3,84.2,94.7,43,57.3
+Belarus,1,20.6,30.1,87,92.2,50.1,63.1
+'Russian Federation',24,25.7,14.5,89.6,92.5,57.1,71.7
+Oman,11,10.6,9.6,47.2,57.1,29,82.6
+Romania,33,31,12,86.1,92.1,48.7,64.9
+Uruguay,14,58.3,11.5,54.4,50.3,55.6,76.8
+Bahamas,37,28.5,16.7,91.2,87.6,69.3,79.3
+Kazakhstan,26,30,20.1,95.3,98.8,67.7,77.9
+Barbados,52,48.4,19.6,89.5,87.7,65.9,76.6
+'Antigua and Barbuda',?,49.3,25.7,?,?,?,?
+Bulgaria,5,35.9,20.4,93,95.7,47.9,59
+Palau,?,?,10.3,?,?,?,?
+Panama,85,78.5,19.3,54,49.9,49,81.8
+Malaysia,29,5.7,14.2,65.1,71.3,44.4,75.5
+Mauritius,73,30.9,11.6,49.4,58,43.6,74.2
+Seychelles,?,56.3,43.8,66.9,66.6,?,?
+'Trinidad and Tobago',84,34.8,24.7,59.7,60.9,53,75.5
+Serbia,16,16.9,34,58.5,73.6,44.5,60.9
+Cuba,80,43.1,48.9,74.3,78.8,43.4,70
+Lebanon,16,12,3.1,53,55.4,23.3,70.9
+'Costa Rica',38,60.8,33.3,50.7,50.5,46.6,79
+'Iran (Islamic Republic of)',23,31.6,3.1,62.2,67.6,16.6,73.6
+'Venezuela (Bolivarian Republic of)',110,83.2,17,56.6,50.8,51.1,79.2
+Turkey,20,30.9,14.4,39,60,29.4,70.8
+'Sri Lanka',29,16.9,5.8,72.7,76.4,35.1,76.3
+Mexico,49,63.4,37.1,55.7,60.7,45.1,79.9
+Brazil,69,70.8,9.6,54.6,52.4,59.4,80.8
+Georgia,41,46.8,11.3,89.7,92.7,56.5,75.1
+'Saint Kitts and Nevis',?,?,6.7,?,?,?,?
+Azerbaijan,26,40,15.6,93.7,97.4,62.9,69.6
+Grenada,23,35.4,25,?,?,?,?
+Jordan,50,26.5,11.6,69.5,78.5,15.6,66.6
+'The former Yugoslav Republic of Macedonia',7,18.3,33.3,40.2,55.6,43.1,67.5
+Ukraine,23,25.7,11.9,91.7,95.9,53.2,66.9
+Algeria,89,10,25.7,26.7,31,15.2,72.2
+Peru,89,50.8,22.3,56.3,66.1,68.2,84.4
+Albania,21,15.3,20.7,81.8,87.9,44.9,65.5
+Armenia,29,27.1,10.7,94,95,54.2,72.6
+'Bosnia and Herzegovina',8,15.1,19.3,44.9,69.8,34.1,57.3
+Ecuador,87,77,41.6,40.1,39.4,54.7,82.7
+'Saint Lucia',34,56.3,20.7,?,?,62.7,76.2
+China,32,8.6,23.6,58.7,71.9,63.9,78.3
+Fiji,59,42.9,14,64.2,64.5,37.5,72
+Mongolia,68,18.7,14.9,85.3,84.1,56.6,69.3
+Thailand,26,41,6.1,35.7,40.8,64.3,80.7
+Dominica,?,?,21.9,29.7,23.2,?,?
+Libya,15,2.5,16,55.5,41.9,30,76.4
+Tunisia,46,4.6,31.3,32.8,46.1,25.1,70.9
+Colombia,83,68.5,20.9,56.9,55.6,55.8,79.7
+'Saint Vincent and the Grenadines',45,54.5,13,?,?,55.7,78
+Jamaica,80,70.1,16.7,74,70.2,56.1,70.9
+Tonga,120,18.1,0,87.5,88.3,53.5,74.6
+Belize,45,71.4,13.3,76.4,75.8,49.2,82.3
+'Dominican Republic',100,99.6,19.1,55.6,53.1,51.3,78.6
+Suriname,130,35.2,11.8,44.6,47.1,40.5,68.8
+Maldives,31,4.2,5.9,27.3,32.7,56.2,77.5
+Samoa,58,28.3,6.1,64.3,60,23.5,58.4
+Botswana,170,44.2,9.5,73.6,77.9,71.9,81.6
+'Moldova (Republic of)',21,29.3,20.8,93.7,96.6,37.6,44.2
+Egypt,45,43,2.2,43.9,60.6,23.7,74.8
+Turkmenistan,61,18,25.8,?,?,46.9,76.9
+Gabon,240,103,16.2,53.9,36.1,56.2,65.4
+Indonesia,190,48.3,17.1,39.9,49.2,51.4,84.2
+Paraguay,110,67,16.8,36.8,43,55.7,84.8
+'Palestine State of',?,45.8,?,53.9,59.4,15.4,66.4
+Uzbekistan,36,38.8,16.4,?,?,48.1,75.6
+Philippines,120,46.8,27.1,65.9,63.7,51.1,79.7
+'El Salvador',69,76,27.4,36.8,43.6,47.8,79
+'South Africa',140,50.9,40.8,72.8,76,44.5,60.5
+'Viet Nam',49,29,24.3,59.4,71.2,73,82.2
+'Bolivia (Plurinational State of)',200,71.9,51.8,47.6,59.1,64.2,80.9
+Kyrgyzstan,75,29.3,23.3,94.5,96.8,56,79.5
+Iraq,67,68.7,26.5,27.8,50.2,14.9,69.8
+'Cabo Verde',53,70.6,20.8,?,?,51.5,83.7
+'Micronesia (Federated States of)',96,18.6,0,?,?,?,?
+Guyana,250,88.5,31.3,60.3,47.8,42.6,80.5
+Nicaragua,100,100.8,39.1,39.4,38.3,47.4,80.3
+Morocco,120,35.8,11,20.7,30.2,26.5,75.8
+Namibia,130,54.9,37.7,33.3,34.4,54.7,63.7
+Guatemala,140,97.2,13.3,21.9,23.2,49.3,88.2
+Tajikistan,44,42.8,15.2,95.1,91.2,58.9,77.1
+India,190,32.8,12.2,27,56.6,27,79.9
+Honduras,120,84,25.8,28,25.8,42.8,82.9
+Bhutan,120,40.9,8.3,34,34.5,66.7,77.2
+Timor-Leste,270,52.2,38.5,?,?,24.6,50.8
+'Syrian Arab Republic',49,41.6,12.4,29.5,40.5,13.5,72.7
+Vanuatu,86,44.8,0,?,?,61.5,80
+Congo,410,126.7,11.5,39.7,47,68.5,73
+Kiribati,130,16.6,8.7,?,?,?,?
+'Equatorial Guinea',290,112.6,19.7,?,?,80.7,92.2
+Zambia,280,125.4,12.7,25.8,44,73.1,85.6
+Ghana,380,58.4,10.9,45.2,64.7,67.3,71.4
+'Lao Peoples Democratic Republic',?,65,25,22.9,37,76.3,79.1
+Bangladesh,170,80.6,20,34.1,41.3,57.4,84.1
+Cambodia,170,44.3,19,9.9,22.9,78.8,86.5
+'Sao Tome and Principe',210,65.1,18.2,?,?,45.3,77.8
+Kenya,400,93.6,20.8,25.4,31.5,62.2,72.4
+Nepal,190,73.7,29.5,17.7,38.2,79.9,87.1
+Pakistan,170,27.3,19.7,19.3,46.1,24.6,82.9
+Myanmar,200,12.1,4.7,22.9,15.3,75.2,82.3
+Angola,460,170.2,36.8,?,?,63.3,76.9
+Swaziland,310,72,14.7,21.9,26,43.9,71.6
+'Tanzania (United Republic of)',410,122.7,36,5.6,9.5,88.1,90.2
+Nigeria,560,119.6,6.6,?,?,48.2,63.7
+Cameroon,590,115.8,27.1,21.3,34.9,63.8,76.8
+Madagascar,440,122.8,20.5,?,?,86.6,90.5
+Zimbabwe,470,60.3,35.1,48.7,62,83.2,89.7
+Mauritania,320,73.3,22.2,8.3,20.9,28.7,79.1
+'Solomon Islands',130,64.9,2,?,?,53.4,79
+'Papua New Guinea',220,62.1,2.7,7.6,14.5,70.5,74
+Comoros,350,51.1,3,?,?,35.2,80.1
+Yemen,270,47,0.7,8.6,26.7,25.4,72.2
+Lesotho,490,89.4,26.8,21.9,19,59,73.5
+Togo,450,91.5,17.6,16.1,40.3,80.6,81.3
+Haiti,380,42,3.5,22.4,35.2,60.9,71
+Rwanda,320,33.6,57.6,8,8.8,86.4,85.3
+Uganda,360,126.7,35,22.9,33.5,75.8,79.2
+Benin,340,90.2,8.4,11.3,27,67.6,78.3
+Sudan,360,84,23.8,12.1,18.2,31.3,76
+Djibouti,230,18.6,12.7,?,?,36.3,67.7
+'South Sudan',730,75.3,24.4,?,?,?,?
+Senegal,320,94.4,42.7,7.2,15.4,66,88
+Afghanistan,400,86.8,27.6,5.9,29.8,15.8,79.5
+'Côte dIvoire',720,130.3,9.2,14,30.1,52.4,81.4
+Malawi,510,144.8,16.7,11.1,21.6,84.6,81.5
+Ethiopia,420,78.4,25.5,7.8,18.2,78.2,89.3
+Gambia,430,115.8,9.4,17.4,31.5,72.2,82.9
+'Congo (Democratic Republic of the)',730,135.3,8.2,12.8,32.4,70.7,73.2
+Liberia,640,117.4,10.7,15.4,39.3,58.2,64.8
+Guinea-Bissau,560,99.3,13.7,?,?,68.2,78.5
+Mali,550,175.6,9.5,7.7,15.1,50.8,81.4
+Mozambique,480,137.8,39.6,1.4,6.2,85.5,82.8
+'Sierra Leone',1100,100.7,12.4,10,21.7,65.7,69
+Guinea,650,131,21.9,?,?,65.6,78.3
+'Burkina Faso',400,115.4,13.3,0.9,3.2,77.1,90
+Burundi,740,30.3,34.9,5.3,8.3,83.3,82
+Chad,980,152,14.9,1.7,9.9,64,79.2
+Eritrea,380,65.3,22,?,?,80,89.8
+'Central African Republic',880,98.3,12.5,10.1,26.7,72.6,85.1
+Niger,630,204.8,13.3,2.4,7.8,40,89.7
+'Korea (Democratic Peoples Rep. of)',87,0.6,16.3,?,?,72.2,84.2
+'Marshall Islands',?,?,3,?,?,?,?
+Monaco,?,?,20.8,?,?,?,?
+Nauru,?,?,5.3,?,?,?,?
+'San Marino',?,?,16.7,?,?,?,?
+Somalia,850,110.4,13.8,?,?,37.2,75.5
+Tuvalu,?,?,6.7,?,?,?,?

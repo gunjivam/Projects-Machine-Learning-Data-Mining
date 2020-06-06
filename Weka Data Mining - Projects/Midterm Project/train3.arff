@@ -1,0 +1,40 @@
+@relation choices
+
+@attribute banana numeric
+@attribute chocolate numeric
+@attribute pistachio numeric
+@attribute strawberry numeric
+@attribute vanilla numeric
+@attribute Classification {dislike,love,neutral,like}
+
+@data
+0,1,0,1,1,dislike
+0,1,2,0,0,dislike
+0,2,1,0,0,dislike
+0,3,0,0,0,love
+0,0,0,3,0,neutral
+0,1,0,0,2,like
+1,0,2,0,0,love
+0,1,1,1,0,neutral
+0,0,1,0,2,love
+0,1,0,2,0,like
+0,0,0,1,2,like
+1,1,1,0,0,love
+3,0,0,0,0,neutral
+0,0,2,1,0,neutral
+1,0,0,2,0,love
+0,0,3,0,0,dislike
+2,1,0,0,0,love
+0,0,2,0,1,like
+0,2,0,1,0,like
+1,0,0,0,2,like
+0,0,1,2,0,dislike
+2,0,0,0,1,like
+1,1,0,1,0,like
+0,2,0,0,1,love
+2,0,1,0,0,love
+0,1,1,0,1,neutral
+1,0,0,1,1,neutral
+0,0,0,2,1,dislike
+0,0,1,1,1,dislike
+0,0,0,0,3,dislike

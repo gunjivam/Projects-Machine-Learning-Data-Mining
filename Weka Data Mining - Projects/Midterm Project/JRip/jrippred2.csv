@@ -1,0 +1,17 @@
+inst#,actual,predicted,error,prediction
+1,1:dislike,2:love,+,0.357
+2,4:like,4:like,,0.667
+3,4:like,2:love,+,0.357
+4,2:love,4:like,+,0.667
+5,2:love,2:love,,0.357
+6,3:neutral,4:like,+,0.667
+7,3:neutral,4:like,+,0.667
+8,1:dislike,4:like,+,0.667
+9,1:dislike,4:like,+,0.667
+10,1:dislike,4:like,+,0.667
+11,1:dislike,4:like,+,0.667
+12,2:love,2:love,,0.357
+13,1:dislike,2:love,+,0.357
+14,4:like,4:like,,0.667
+15,4:like,2:love,+,0.357
+

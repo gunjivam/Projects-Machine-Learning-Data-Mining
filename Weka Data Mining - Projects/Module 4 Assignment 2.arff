@@ -1,0 +1,583 @@
+@relation quarters
+
+@attribute ﻿county {Atlantic,Bergen,Burlington,Camden,'Cape May',Cumberland,Essex,Gloucester,Hudson,Hunterdon,Mercer,Middlesex,Monmouth,Morris,Ocean,Passaic,Salem,Somerset,Sussex,Union,Warren}
+@attribute municipality {Absecon,'Atlantic City',Brigantine,'Buena Borough','Buena Vista Township','Corbin City','Egg Harbor City','Egg Harbor Township','Estell Manor','Folsom Borough','Galloway Township','Hamilton Township',Hammonton,Linwood,'Longport Borough','Margate City','Mullica Township',Northfield,Pleasantville,'Port Republic','Somers Point','Ventnor City','Weymouth Township','Allendale Borough','Alpine Borough','Bergenfield Borough','Bogota Borough','Carlstadt Borough','Cliffside Park Borough','Closter Borough','Cresskill Borough','Demarest Borough','Dumont Borough','Elmwood Park Borough','East Rutherford Borough','Edgewater Borough','Emerson Borough',Englewood,'Englewood Cliffs Borough','Fair Lawn Borough','Fairview Borough','Fort Lee Borough','Franklin Lakes Borough',Garfield,'Glen Rock Borough',Hackensack,'Harrington Park Borough','Hasbrouck Heights Borough','Haworth Borough','Hillsdale Borough','Ho-Ho-Kus Borough','Leonia Borough','Little Ferry Borough','Lodi Borough','Lyndhurst Township','Mahwah Township','Maywood Borough','Midland Park Borough','Montvale Borough','Moonachie Borough','New Milford Borough','North Arlington Borough','Northvale Borough','Norwood Borough','Oakland Borough','Old Tappan Borough','Oradell Borough','Palisades Park Borough','Paramus Borough','Park Ridge Borough','Ramsey Borough','Ridgefield Borough','Ridgefield Park Village','Ridgewood Village','River Edge Borough','River Vale Township','Rochelle Park Township','Rockleigh Borough','Rutherford Borough','Saddle Brook Township','Saddle River Borough','South Hackensack Township','Teaneck Township','Tenafly Borough','Teterboro Borough','Upper Saddle River Borough','Waldwick Borough','Wallington Borough','Washington Township','Westwood Borough','Woodcliff Lake Borough','Wood-Ridge Borough','Wyckoff Township','Bass River Township',Beverly,Bordentown,'Bordentown Township',Burlington,'Burlington Township','Chesterfield Township','Cinnaminson Township','Delanco Township','Delran Township','Eastampton Township','Edgewater Park Township','Evesham Township','Fieldsboro Borough','Florence Township','Hainesport Township','Lumberton Township','Mansfield Township','Maple Shade Township','Medford Township','Medford Lakes Borough','Moorestown Township','Mount Holly Township','Mount Laurel Township','New Hanover Township','North Hanover Township','Palmyra Borough','Pemberton Borough','Pemberton Township','Riverside Township','Riverton Borough','Shamong Township','Southampton Township','Springfield Township','Tabernacle Township','Westampton Township','Willingboro Township','Woodland Township','Wrightstown Borough','Audubon Borough','Audubon Park Borough','Barrington Borough','Bellmawr Borough','Berlin Borough','Berlin Township','Brooklawn Borough',Camden,'Cherry Hill Township','Chesilhurst Borough','Clementon Borough','Collingswood Borough','Gibbsboro Borough','Gloucester City','Gloucester Township','Haddon Township','Haddonfield Borough','Haddon Heights Borough','Hi-Nella Borough','Laurel Springs Borough','Lawnside Borough','Lindenwold Borough','Magnolia Borough','Merchantville Borough','Mount Ephraim Borough','Oaklyn Borough','Pennsauken Township','Pine Hill Borough','Pine Valley Borough','Runnemede Borough','Somerdale Borough','Stratford Borough','Tavistock Borough','Voorhees Township','Waterford Township','Winslow Township','Woodlynne Borough','Avalon Borough','Cape May','Cape May Point Borough','Dennis Township','Lower Township','Middle Township','North Wildwood','Ocean City','Sea Isle City','Stone Harbor Borough','Upper Township','West Cape May Borough','West Wildwood Borough',Wildwood,'Wildwood Crest Borough','Woodbine Borough',Bridgeton,'Commercial Township','Deerfield Township','Downe Township','Fairfield Township','Greenwich Township','Hopewell Township','Lawrence Township','Maurice River Township',Millville,'Shiloh Borough','Stow Creek Township','Upper Deerfield Township',Vineland,'Belleville Township','Bloomfield Township','Caldwell Borough','Cedar Grove Township','East Orange','Essex Fells Borough','Glen Ridge Borough','Irvington Township','Livingston Township','Maplewood Township','Millburn Township','Montclair Township',Newark,'North Caldwell Borough','Nutley Township','City of Orange Township','Roseland Borough','South Orange Village Township','Verona Township','West Caldwell Township','West Orange Township','Clayton Borough','Deptford Township','East Greenwich Township','Elk Township','Franklin Township','Glassboro Borough','Harrison Township','Logan Township','Mantua Township','Monroe Township','National Park Borough','Newfield Borough','Paulsboro Borough','Pitman Borough','South Harrison Township','Swedesboro Borough','Wenonah Borough','West Deptford Township','Westville Borough',Woodbury,'Woodbury Heights Borough','Woolwich Township',Bayonne,'East Newark Borough',Guttenberg,Harrison,Hoboken,'Jersey City',Kearny,'North Bergen Township',Secaucus,'Union City','Weehawken Township','West New York','Alexandria Township','Bethlehem Township','Bloomsbury Borough','Califon Borough',Clinton,'Clinton Township','Delaware Township','East Amwell Township','Flemington Borough','Frenchtown Borough','Glen Gardner Borough','Hampton Borough','High Bridge Borough','Holland Township','Kingwood Township',Lambertville,'Lebanon Borough','Lebanon Township','Milford Borough','Raritan Township','Readington Township','Stockton Borough','Tewksbury Township','Union Township','West Amwell Township','East Windsor Township','Ewing Township','Hightstown Borough','Hopewell Borough','Pennington Borough','Princeton Borough','Princeton Township',Trenton,'Robbinsville Township','West Windsor Township','Carteret Borough','Cranbury Township','Dunellen Borough','East Brunswick Township','Edison Township','Helmetta Borough','Highland Park Borough','Jamesburg Borough','Metuchen Borough','Middlesex Borough','Milltown Borough','New Brunswick','North Brunswick Township','Old Bridge Township','Perth Amboy','Piscataway Township','Plainsboro Township','Sayreville Borough','South Amboy','South Brunswick Township','South Plainfield Borough','South River Borough','Spotswood Borough','Woodbridge Township','Aberdeen Township','Allenhurst Borough','Allentown Borough','Asbury Park','Atlantic Highlands Borough','Avon-by-the-Sea Borough','Belmar Borough','Bradley Beach Borough','Brielle Borough','Colts Neck Township','Deal Borough','Eatontown Borough','Englishtown Borough','Fair Haven Borough','Farmingdale Borough','Freehold Borough','Freehold Township','Hazlet Township','Highlands Borough','Holmdel Township','Howell Township','Interlaken Borough','Keansburg Borough','Keyport Borough','Little Silver Borough','Loch Arbour Village','Long Branch','Manalapan Township','Manasquan Borough','Marlboro Township','Matawan Borough','Middletown Township','Millstone Township','Monmouth Beach Borough','Neptune Township','Neptune City Borough','Ocean Township','Oceanport Borough','Red Bank Borough','Roosevelt Borough','Rumson Borough','Sea Bright Borough','Sea Girt Borough','Shrewsbury Borough','Shrewsbury Township','Lake Como Borough','Spring Lake Borough','Spring Lake Heights Borough','Tinton Falls Borough','Union Beach Borough','Upper Freehold Township','Wall Township','West Long Branch Borough',Boonton,'Boonton Township','Butler Borough','Chatham Borough','Chatham Township','Chester Borough','Chester Township','Denville Township',Dover,'East Hanover Township','Florham Park Borough','Hanover Township','Harding Township','Jefferson Township','Kinnelon Borough','Lincoln Park Borough','Madison Borough','Mendham Borough','Mendham Township','Mine Hill Township','Montville Township','Morris Township','Morris Plains Borough',Morristown,'Mountain Lakes Borough','Mount Arlington Borough','Mount Olive Township','Netcong Borough','Parsippany-Troy Hills Township','Long Hill Township','Pequannock Township','Randolph Township','Riverdale Borough','Rockaway Borough','Rockaway Township','Roxbury Township','Victory Gardens Borough','Wharton Borough','Barnegat Township','Barnegat Light Borough','Bay Head Borough','Beach Haven Borough','Beachwood Borough','Berkeley Township','Brick Township','Toms River Township','Eagleswood Township','Harvey Cedars Borough','Island Heights Borough','Jackson Township','Lacey Township','Lakehurst Borough','Lakewood Township','Lavallette Borough','Little Egg Harbor Township','Long Beach Township','Manchester Township','Mantoloking Borough','Ocean Gate Borough','Pine Beach Borough','Plumsted Township','Point Pleasant Borough','Point Pleasant Beach Borough','Seaside Heights Borough','Seaside Park Borough','Ship Bottom Borough','South Toms River Borough','Stafford Township','Surf City Borough','Tuckerton Borough','Bloomingdale Borough',Clifton,'Haledon Borough','Hawthorne Borough','Little Falls Township','North Haledon Borough',Passaic,Paterson,'Pompton Lakes Borough','Prospect Park Borough','Ringwood Borough','Totowa Borough','Wanaque Borough','Wayne Township','West Milford Township','Woodland Park Borough','Alloway Township','Carneys Point Township','Elmer Borough','Elsinboro Township','Lower Alloways Creek Township','Mannington Township','Oldmans Township','Penns Grove Borough','Pennsville Township','Pilesgrove Township','Pittsgrove Township','Quinton Township',Salem,'Upper Pittsgrove Township','Woodstown Borough','Bedminster Township','Bernards Township','Bernardsville Borough','Bound Brook Borough','Branchburg Township','Bridgewater Township','Far Hills Borough','Green Brook Township','Hillsborough Township','Manville Borough','Millstone Borough','Montgomery Township','North Plainfield Borough','Peapack-Gladstone Borough','Raritan Borough','Rocky Hill Borough','Somerville Borough','South Bound Brook Borough','Warren Township','Watchung Borough','Andover Borough','Andover Township','Branchville Borough','Byram Township','Frankford Township','Franklin Borough','Fredon Township','Green Township','Hamburg Borough','Hampton Township','Hardyston Township','Hopatcong Borough','Lafayette Township','Montague Township',Newton,'Ogdensburg Borough','Sandyston Township','Sparta Township','Stanhope Borough','Stillwater Township','Sussex Borough','Vernon Township','Walpack Township','Wantage Township','Berkeley Heights Township','Clark Township','Cranford Township',Elizabeth,'Fanwood Borough','Garwood Borough','Hillside Township','Kenilworth Borough',Linden,'Mountainside Borough','New Providence Borough',Plainfield,Rahway,'Roselle Borough','Roselle Park Borough','Scotch Plains Township',Summit,Westfield,'Winfield Township','Allamuchy Township','Alpha Borough',Belvidere,'Blairstown Township','Frelinghuysen Township',Hackettstown,'Hardwick Township','Harmony Township','Hope Township','Independence Township','Knowlton Township','Liberty Township','Lopatcong Township','Oxford Township',Phillipsburg,'Pohatcong Township','Washington Borough','White Township'}
+@attribute municipal_code numeric
+@attribute 'total group quarter population' numeric
+@attribute 'total institutionalized population' numeric
+@attribute 'correctional facilities for adults' numeric
+@attribute 'juvenile facilities' numeric
+@attribute 'nursing facilities' numeric
+@attribute 'other institutionalized facilities' numeric
+@attribute 'totla non-institutionalized population' numeric
+@attribute 'college student housing' numeric
+@attribute 'military quarters' numeric
+@attribute 'other non-institutionalized facilities' numeric
+
+@data
+Atlantic,Absecon,101,150,136,0,0,136,0,14,0,0,14
+Atlantic,'Atlantic City',102,802,186,0,0,186,0,616,0,5,611
+Atlantic,Brigantine,103,4,0,0,0,0,0,4,0,0,4
+Atlantic,'Buena Borough',104,19,0,0,0,0,0,19,0,0,19
+Atlantic,'Buena Vista Township',105,18,0,0,0,0,0,18,0,0,18
+Atlantic,'Corbin City',106,?,?,?,?,?,?,?,?,?,?
+Atlantic,'Egg Harbor City',107,19,0,0,0,0,0,19,0,0,19
+Atlantic,'Egg Harbor Township',108,33,20,0,20,0,0,13,0,0,13
+Atlantic,'Estell Manor',109,8,8,0,8,0,0,0,0,0,0
+Atlantic,'Folsom Borough',110,5,0,0,0,0,0,5,0,0,5
+Atlantic,'Galloway Township',111,2818,401,0,0,401,0,2417,2370,0,47
+Atlantic,'Hamilton Township',112,1120,982,953,29,0,0,138,0,0,138
+Atlantic,Hammonton,113,306,167,0,0,167,0,139,0,0,139
+Atlantic,Linwood,114,135,127,0,0,127,0,8,0,0,8
+Atlantic,'Longport Borough',115,?,?,?,?,?,?,?,?,?,?
+Atlantic,'Margate City',116,?,?,?,?,?,?,?,?,?,?
+Atlantic,'Mullica Township',117,87,0,0,0,0,0,87,0,0,87
+Atlantic,Northfield,118,183,178,0,2,176,0,5,0,0,5
+Atlantic,Pleasantville,119,309,267,0,0,267,0,42,0,0,42
+Atlantic,'Port Republic',120,7,0,0,0,0,0,7,0,0,7
+Atlantic,'Somers Point',121,10,0,0,0,0,0,10,0,0,10
+Atlantic,'Ventnor City',122,6,0,0,0,0,0,6,0,0,6
+Atlantic,'Weymouth Township',123,7,0,0,0,0,0,7,0,0,7
+Bergen,'Allendale Borough',201,112,112,0,0,112,0,0,0,0,0
+Bergen,'Alpine Borough',202,?,?,?,?,?,?,?,?,?,?
+Bergen,'Bergenfield Borough',203,38,0,0,0,0,0,38,0,0,38
+Bergen,'Bogota Borough',204,28,4,0,4,0,0,24,0,0,24
+Bergen,'Carlstadt Borough',205,?,?,?,?,?,?,?,?,?,?
+Bergen,'Cliffside Park Borough',206,3,0,0,0,0,0,3,0,0,3
+Bergen,'Closter Borough',207,71,52,0,0,52,0,19,0,0,19
+Bergen,'Cresskill Borough',208,54,25,0,0,25,0,29,0,0,29
+Bergen,'Demarest Borough',209,6,0,0,0,0,0,6,0,0,6
+Bergen,'Dumont Borough',210,9,0,0,0,0,0,9,0,0,9
+Bergen,'Elmwood Park Borough',211,24,0,0,0,0,0,24,0,0,24
+Bergen,'East Rutherford Borough',212,5,0,0,0,0,0,5,0,0,5
+Bergen,'Edgewater Borough',213,2,1,0,0,1,0,1,0,0,1
+Bergen,'Emerson Borough',214,246,215,0,0,215,0,31,0,0,31
+Bergen,Englewood,215,164,136,0,0,136,0,28,0,0,28
+Bergen,'Englewood Cliffs Borough',216,43,0,0,0,0,0,43,0,0,43
+Bergen,'Fair Lawn Borough',217,187,152,0,0,152,0,35,0,0,35
+Bergen,'Fairview Borough',218,5,0,0,0,0,0,5,0,0,5
+Bergen,'Fort Lee Borough',219,7,0,0,0,0,0,7,0,0,7
+Bergen,'Franklin Lakes Borough',220,3,0,0,0,0,0,3,0,0,3
+Bergen,Garfield,221,32,0,0,0,0,0,32,0,0,32
+Bergen,'Glen Rock Borough',222,19,0,0,0,0,0,19,0,0,19
+Bergen,Hackensack,223,1301,985,732,81,172,0,316,0,0,316
+Bergen,'Harrington Park Borough',224,4,0,0,0,0,0,4,0,0,4
+Bergen,'Hasbrouck Heights Borough',225,19,0,0,0,0,0,19,0,0,19
+Bergen,'Haworth Borough',226,5,0,0,0,0,0,5,0,0,5
+Bergen,'Hillsdale Borough',227,28,0,0,0,0,0,28,0,0,28
+Bergen,'Ho-Ho-Kus Borough',228,3,0,0,0,0,0,3,0,0,3
+Bergen,'Leonia Borough',229,17,0,0,0,0,0,17,0,0,17
+Bergen,'Little Ferry Borough',230,5,0,0,0,0,0,5,0,0,5
+Bergen,'Lodi Borough',231,105,48,0,0,48,0,57,0,0,57
+Bergen,'Lyndhurst Township',232,15,0,0,0,0,0,15,0,0,15
+Bergen,'Mahwah Township',233,2906,0,0,0,0,0,2906,2886,0,20
+Bergen,'Maywood Borough',234,16,0,0,0,0,0,16,0,0,16
+Bergen,'Midland Park Borough',235,10,0,0,0,0,0,10,0,0,10
+Bergen,'Montvale Borough',236,6,0,0,0,0,0,6,0,0,6
+Bergen,'Moonachie Borough',237,?,?,?,?,?,?,?,?,?,?
+Bergen,'New Milford Borough',238,241,223,0,0,223,0,18,0,0,18
+Bergen,'North Arlington Borough',239,21,0,0,0,0,0,21,0,0,21
+Bergen,'Northvale Borough',240,7,0,0,0,0,0,7,0,0,7
+Bergen,'Norwood Borough',241,238,231,0,0,231,0,7,0,0,7
+Bergen,'Oakland Borough',242,208,197,0,0,197,0,11,0,0,11
+Bergen,'Old Tappan Borough',243,?,?,?,?,?,?,?,?,?,?
+Bergen,'Oradell Borough',244,95,90,0,0,90,0,5,0,0,5
+Bergen,'Palisades Park Borough',245,4,0,0,0,0,0,4,0,0,4
+Bergen,'Paramus Borough',246,1165,1110,0,17,521,572,55,0,0,55
+Bergen,'Park Ridge Borough',247,210,195,0,4,191,0,15,0,0,15
+Bergen,'Ramsey Borough',248,47,0,0,0,0,0,47,0,0,47
+Bergen,'Ridgefield Borough',249,6,0,0,0,0,0,6,0,0,6
+Bergen,'Ridgefield Park Village',250,6,0,0,0,0,0,6,0,0,6
+Bergen,'Ridgewood Village',251,200,176,0,8,165,3,24,0,0,24
+Bergen,'River Edge Borough',252,9,0,0,0,0,0,9,0,0,9
+Bergen,'River Vale Township',253,23,0,0,0,0,0,23,0,0,23
+Bergen,'Rochelle Park Township',254,223,223,0,0,223,0,0,0,0,0
+Bergen,'Rockleigh Borough',255,312,312,0,34,278,0,0,0,0,0
+Bergen,'Rutherford Borough',256,302,0,0,0,0,0,302,256,0,46
+Bergen,'Saddle Brook Township',257,11,0,0,0,0,0,11,0,0,11
+Bergen,'Saddle River Borough',258,?,?,?,?,?,?,?,?,?,?
+Bergen,'South Hackensack Township',259,?,?,?,?,?,?,?,?,?,?
+Bergen,'Teaneck Township',260,956,129,0,0,129,0,827,771,0,56
+Bergen,'Tenafly Borough',261,109,44,0,0,44,0,65,0,0,65
+Bergen,'Teterboro Borough',262,?,?,?,?,?,?,?,?,?,?
+Bergen,'Upper Saddle River Borough',263,4,0,0,0,0,0,4,0,0,4
+Bergen,'Waldwick Borough',264,?,?,?,?,?,?,?,?,?,?
+Bergen,'Wallington Borough',265,6,0,0,0,0,0,6,0,0,6
+Bergen,'Washington Township',266,?,?,?,?,?,?,?,?,?,?
+Bergen,'Westwood Borough',267,63,49,0,0,49,0,14,0,0,14
+Bergen,'Woodcliff Lake Borough',268,88,69,0,0,69,0,19,0,0,19
+Bergen,'Wood-Ridge Borough',269,3,0,0,0,0,0,3,0,0,3
+Bergen,'Wyckoff Township',270,367,269,0,0,223,46,98,0,0,98
+Burlington,'Bass River Township',301,?,?,?,?,?,?,?,?,?,?
+Burlington,Beverly,302,?,?,?,?,?,?,?,?,?,?
+Burlington,Bordentown,303,17,0,0,0,0,0,17,0,0,17
+Burlington,'Bordentown Township',304,210,210,0,210,0,0,0,0,0,0
+Burlington,Burlington,305,144,15,0,15,0,0,129,0,0,129
+Burlington,'Burlington Township',306,694,683,0,0,683,0,11,0,0,11
+Burlington,'Chesterfield Township',307,3057,3036,0,3036,0,0,21,0,0,21
+Burlington,'Cinnaminson Township',308,129,108,0,7,101,0,21,0,0,21
+Burlington,'Delanco Township',309,?,?,?,?,?,?,?,?,?,?
+Burlington,'Delran Township',310,27,0,0,0,0,0,27,0,0,27
+Burlington,'Eastampton Township',311,2,0,0,0,0,0,2,0,0,2
+Burlington,'Edgewater Park Township',312,5,0,0,0,0,0,5,0,0,5
+Burlington,'Evesham Township',313,376,136,0,0,136,0,240,0,0,240
+Burlington,'Fieldsboro Borough',314,?,?,?,?,?,?,?,?,?,?
+Burlington,'Florence Township',315,?,?,?,?,?,?,?,?,?,?
+Burlington,'Hainesport Township',316,14,8,0,8,0,0,6,0,0,6
+Burlington,'Lumberton Township',317,157,151,0,20,131,0,6,0,0,6
+Burlington,'Mansfield Township',318,?,?,?,?,?,?,?,?,?,?
+Burlington,'Maple Shade Township',319,265,259,0,0,259,0,6,0,0,6
+Burlington,'Medford Township',320,?,?,?,?,?,?,?,?,?,?
+Burlington,'Medford Lakes Borough',321,220,177,0,0,177,0,43,0,0,43
+Burlington,'Moorestown Township',322,348,332,0,0,332,0,16,0,0,16
+Burlington,'Mount Holly Township',323,510,404,343,61,0,0,106,0,0,106
+Burlington,'Mount Laurel Township',324,198,153,0,8,145,0,45,0,0,45
+Burlington,'New Hanover Township',325,5685,5325,5325,0,0,0,360,0,360,0
+Burlington,'North Hanover Township',326,?,?,?,?,?,?,?,?,?,?
+Burlington,'Palmyra Borough',327,?,?,?,?,?,?,?,?,?,?
+Burlington,'Pemberton Borough',328,5,0,0,0,0,0,5,0,0,5
+Burlington,'Pemberton Township',329,485,417,189,22,167,39,68,0,0,68
+Burlington,'Riverside Township',330,3,0,0,0,0,0,3,0,0,3
+Burlington,'Riverton Borough',331,114,114,0,0,114,0,0,0,0,0
+Burlington,'Shamong Township',332,14,13,0,13,0,0,1,0,0,1
+Burlington,'Southampton Township',333,?,?,?,?,?,?,?,?,?,?
+Burlington,'Springfield Township',334,6,0,0,0,0,0,6,0,0,6
+Burlington,'Tabernacle Township',335,6,0,0,0,0,0,6,0,0,6
+Burlington,'Washington Township',336,14,14,0,14,0,0,0,0,0,0
+Burlington,'Westampton Township',337,5,0,0,0,0,0,5,0,0,5
+Burlington,'Willingboro Township',338,30,5,0,5,0,0,25,0,0,25
+Burlington,'Woodland Township',339,474,54,0,54,0,0,420,0,0,420
+Burlington,'Wrightstown Borough',340,?,?,?,?,?,?,?,?,?,?
+Camden,'Audubon Borough',401,15,0,0,0,0,0,15,0,0,15
+Camden,'Audubon Park Borough',402,?,?,?,?,?,?,?,?,?,?
+Camden,'Barrington Borough',403,1,0,0,0,0,0,1,0,0,1
+Camden,'Bellmawr Borough',404,18,0,0,0,0,0,18,0,0,18
+Camden,'Berlin Borough',405,139,126,0,0,126,0,13,0,0,13
+Camden,'Berlin Township',406,12,0,0,0,0,0,12,0,0,12
+Camden,'Brooklawn Borough',407,?,?,?,?,?,?,?,?,?,?
+Camden,Camden,408,3321,2229,1816,123,290,0,1092,423,0,669
+Camden,'Cherry Hill Township',409,1117,1017,0,26,981,10,100,0,0,100
+Camden,'Chesilhurst Borough',410,108,49,0,0,49,0,59,0,0,59
+Camden,'Clementon Borough',411,?,?,?,?,?,?,?,?,?,?
+Camden,'Collingswood Borough',412,61,59,0,0,59,0,2,0,0,2
+Camden,'Gibbsboro Borough',413,3,0,0,0,0,0,3,0,0,3
+Camden,'Gloucester City',414,336,306,0,49,257,0,30,0,0,30
+Camden,'Gloucester Township',415,2,0,0,0,0,0,2,0,0,2
+Camden,'Haddon Township',416,6,0,0,0,0,0,6,0,0,6
+Camden,'Haddonfield Borough',417,14,0,0,0,0,0,14,0,0,14
+Camden,'Haddon Heights Borough',418,3,0,0,0,0,0,3,0,0,3
+Camden,'Hi-Nella Borough',419,?,?,?,?,?,?,?,?,?,?
+Camden,'Laurel Springs Borough',420,?,?,?,?,?,?,?,?,?,?
+Camden,'Lawnside Borough',421,8,8,0,0,8,0,0,0,0,0
+Camden,'Lindenwold Borough',422,18,0,0,0,0,0,18,0,0,18
+Camden,'Magnolia Borough',423,8,0,0,0,0,0,8,0,0,8
+Camden,'Merchantville Borough',424,24,0,0,0,0,0,24,0,0,24
+Camden,'Mount Ephraim Borough',425,6,0,0,0,0,0,6,0,0,6
+Camden,'Oaklyn Borough',426,?,?,?,?,?,?,?,?,?,?
+Camden,'Pennsauken Township',427,177,170,0,5,165,0,7,0,0,7
+Camden,'Pine Hill Borough',428,20,10,0,10,0,0,10,0,0,10
+Camden,'Pine Valley Borough',429,?,?,?,?,?,?,?,?,?,?
+Camden,'Runnemede Borough',430,19,0,0,0,0,0,19,0,0,19
+Camden,'Somerdale Borough',431,?,?,?,?,?,?,?,?,?,?
+Camden,'Stratford Borough',432,77,72,0,0,72,0,5,0,0,5
+Camden,'Tavistock Borough',433,?,?,?,?,?,?,?,?,?,?
+Camden,'Voorhees Township',434,769,715,0,10,705,0,54,0,0,54
+Camden,'Waterford Township',435,170,4,0,4,0,0,166,0,0,166
+Camden,'Winslow Township',436,962,839,0,14,305,520,123,0,0,123
+Camden,'Woodlynne Borough',437,?,?,?,?,?,?,?,?,?,?
+'Cape May','Avalon Borough',501,1,0,0,0,0,0,1,0,0,1
+'Cape May','Cape May',502,763,0,0,0,0,0,763,0,754,9
+'Cape May','Cape May Point Borough',503,?,?,?,?,?,?,?,?,?,?
+'Cape May','Dennis Township',504,120,103,0,0,103,0,17,0,0,17
+'Cape May','Lower Township',505,105,77,0,0,77,0,28,0,0,28
+'Cape May','Middle Township',506,832,720,248,7,465,0,112,0,0,112
+'Cape May','North Wildwood',507,?,?,?,?,?,?,?,?,?,?
+'Cape May','Ocean City',508,64,59,0,0,59,0,5,0,0,5
+'Cape May','Sea Isle City',509,?,?,?,?,?,?,?,?,?,?
+'Cape May','Stone Harbor Borough',510,1,0,0,0,0,0,1,0,0,1
+'Cape May','Upper Township',511,10,0,0,0,0,0,10,0,0,10
+'Cape May','West Cape May Borough',512,?,?,?,?,?,?,?,?,?,?
+'Cape May','West Wildwood Borough',513,11,0,0,0,0,0,11,0,0,11
+'Cape May',Wildwood,514,225,164,0,0,164,0,61,0,0,61
+'Cape May','Wildwood Crest Borough',515,?,?,?,?,?,?,?,?,?,?
+'Cape May','Woodbine Borough',516,496,9,0,9,0,0,487,0,0,487
+Cumberland,Bridgeton,601,4276,4257,4257,0,0,0,19,0,0,19
+Cumberland,'Commercial Township',602,30,0,0,0,0,0,30,3,0,27
+Cumberland,'Deerfield Township',603,46,40,0,0,0,40,6,0,0,6
+Cumberland,'Downe Township',604,?,?,?,?,?,?,?,?,?,?
+Cumberland,'Fairfield Township',605,1268,1251,1251,0,0,0,17,0,0,17
+Cumberland,'Greenwich Township',606,?,?,?,?,?,?,?,?,?,?
+Cumberland,'Hopewell Township',607,270,216,0,26,190,0,54,0,0,54
+Cumberland,'Lawrence Township',608,43,0,0,0,0,0,43,0,0,43
+Cumberland,'Maurice River Township',609,4405,4405,4405,0,0,0,0,0,0,0
+Cumberland,Millville,610,212,117,0,0,117,0,95,0,0,95
+Cumberland,'Shiloh Borough',611,?,?,?,?,?,?,?,?,?,?
+Cumberland,'Stow Creek Township',612,?,?,?,?,?,?,?,?,?,?
+Cumberland,'Upper Deerfield Township',613,70,3,0,3,0,0,67,0,0,67
+Cumberland,Vineland,614,1491,897,281,23,593,0,594,0,0,594
+Essex,'Belleville Township',701,10,0,0,0,0,0,10,0,0,10
+Essex,'Bloomfield Township',702,560,39,4,0,35,0,521,372,0,149
+Essex,'Caldwell Borough',703,467,57,0,0,57,0,410,386,0,24
+Essex,'Cedar Grove Township',704,806,803,0,0,803,0,3,0,0,3
+Essex,'East Orange',705,1235,780,0,19,716,45,455,0,0,455
+Essex,'Essex Fells Borough',706,?,?,?,?,?,?,?,?,?,?
+Essex,'Fairfield Township',707,?,?,?,?,?,?,?,?,?,?
+Essex,'Glen Ridge Borough',708,21,0,0,0,0,0,21,0,0,21
+Essex,'Irvington Township',709,547,203,0,0,203,0,344,0,0,344
+Essex,'Livingston Township',710,311,273,0,0,272,1,38,0,0,38
+Essex,'Maplewood Township',711,29,0,0,0,0,0,29,0,0,29
+Essex,'Millburn Township',712,8,0,0,0,0,0,8,0,0,8
+Essex,'Montclair Township',713,404,134,0,4,130,0,270,98,0,172
+Essex,Newark,714,16367,8545,7343,165,1015,22,7822,2879,0,4943
+Essex,'North Caldwell Borough',715,?,?,?,?,?,?,?,?,?,?
+Essex,'Nutley Township',716,68,0,0,0,0,0,68,0,0,68
+Essex,'City of Orange Township',717,373,289,0,6,283,0,84,0,0,84
+Essex,'Roseland Borough',718,?,?,?,?,?,?,?,?,?,?
+Essex,'South Orange Village Township',719,1288,7,0,0,7,0,1281,1237,0,44
+Essex,'Verona Township',720,206,0,0,0,0,0,206,0,0,206
+Essex,'West Caldwell Township',721,227,208,0,0,208,0,19,0,0,19
+Essex,'West Orange Township',722,845,788,0,7,781,0,57,0,0,57
+Gloucester,'Clayton Borough',801,?,?,?,?,?,?,?,?,?,?
+Gloucester,'Deptford Township',802,392,368,0,0,207,161,24,0,0,24
+Gloucester,'East Greenwich Township',803,130,100,42,0,58,0,30,0,0,30
+Gloucester,'Elk Township',804,78,0,0,0,0,0,78,0,0,78
+Gloucester,'Franklin Township',805,51,0,0,0,0,0,51,0,0,51
+Gloucester,'Glassboro Borough',806,2184,31,0,15,16,0,2153,2001,0,152
+Gloucester,'Greenwich Township',807,8,0,0,0,0,0,8,0,0,8
+Gloucester,'Harrison Township',808,18,0,0,0,0,0,18,0,0,18
+Gloucester,'Logan Township',809,3,0,0,0,0,0,3,0,0,3
+Gloucester,'Mantua Township',810,14,0,0,0,0,0,14,0,0,14
+Gloucester,'Monroe Township',811,195,151,0,6,145,0,44,0,0,44
+Gloucester,'National Park Borough',812,16,0,0,0,0,0,16,0,0,16
+Gloucester,'Newfield Borough',813,1,0,0,0,0,0,1,0,0,1
+Gloucester,'Paulsboro Borough',814,8,0,0,0,0,0,8,0,0,8
+Gloucester,'Pitman Borough',815,242,229,0,0,229,0,13,0,0,13
+Gloucester,'South Harrison Township',816,?,?,?,?,?,?,?,?,?,?
+Gloucester,'Swedesboro Borough',817,1,0,0,0,0,0,1,0,0,1
+Gloucester,'Washington Township',818,187,166,0,0,166,0,21,0,0,21
+Gloucester,'Wenonah Borough',819,5,0,0,0,0,0,5,0,0,5
+Gloucester,'West Deptford Township',820,138,127,0,0,127,0,11,0,0,11
+Gloucester,'Westville Borough',821,2,0,0,0,0,0,2,0,0,2
+Gloucester,Woodbury,822,437,400,363,37,0,0,37,0,0,37
+Gloucester,'Woodbury Heights Borough',823,8,0,0,0,0,0,8,0,0,8
+Gloucester,'Woolwich Township',824,105,22,22,0,0,0,83,0,0,83
+Hudson,Bayonne,901,276,0,0,0,0,0,276,28,0,248
+Hudson,'East Newark Borough',902,?,?,?,?,?,?,?,?,?,?
+Hudson,Guttenberg,903,105,105,0,0,105,0,0,0,0,0
+Hudson,Harrison,904,8,0,0,0,0,0,8,0,0,8
+Hudson,Hoboken,905,1574,0,0,0,0,0,1574,1409,0,165
+Hudson,'Jersey City',906,2843,984,0,70,914,0,1859,1023,0,836
+Hudson,Kearny,907,2570,2501,1843,491,167,0,69,43,0,26
+Hudson,'North Bergen Township',908,584,561,0,0,561,0,23,0,0,23
+Hudson,Secaucus,909,750,543,0,228,315,0,207,0,0,207
+Hudson,'Union City',910,649,342,0,1,341,0,307,0,0,307
+Hudson,'Weehawken Township',911,5,0,0,0,0,0,5,0,0,5
+Hudson,'West New York',912,14,0,0,0,0,0,14,0,0,14
+Hunterdon,'Alexandria Township',1001,43,43,0,0,43,0,0,0,0,0
+Hunterdon,'Bethlehem Township',1002,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Bloomsbury Borough',1003,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Califon Borough',1004,?,?,?,?,?,?,?,?,?,?
+Hunterdon,Clinton,1005,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Clinton Township',1006,1221,1201,0,1140,61,0,20,0,0,20
+Hunterdon,'Delaware Township',1007,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'East Amwell Township',1008,24,12,0,12,0,0,12,0,0,12
+Hunterdon,'Flemington Borough',1009,161,116,116,0,0,0,45,0,0,45
+Hunterdon,'Franklin Township',1010,15,15,0,0,15,0,0,0,0,0
+Hunterdon,'Frenchtown Borough',1011,18,18,0,0,18,0,0,0,0,0
+Hunterdon,'Glen Gardner Borough',1012,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Hampton Borough',1013,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'High Bridge Borough',1014,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Holland Township',1015,6,0,0,0,0,0,6,0,0,6
+Hunterdon,'Kingwood Township',1016,?,?,?,?,?,?,?,?,?,?
+Hunterdon,Lambertville,1017,28,0,0,0,0,0,28,0,0,28
+Hunterdon,'Lebanon Borough',1018,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Lebanon Township',1019,367,321,0,16,33,272,46,0,0,46
+Hunterdon,'Milford Borough',1020,6,0,0,0,0,0,6,0,0,6
+Hunterdon,'Raritan Township',1021,248,192,0,11,181,0,56,0,0,56
+Hunterdon,'Readington Township',1022,22,0,0,0,0,0,22,0,0,22
+Hunterdon,'Stockton Borough',1023,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Tewksbury Township',1024,?,?,?,?,?,?,?,?,?,?
+Hunterdon,'Union Township',1025,1412,1402,1402,0,0,0,10,0,0,10
+Hunterdon,'West Amwell Township',1026,998,998,998,0,0,0,0,0,0,0
+Mercer,'East Windsor Township',1101,99,72,0,0,72,0,27,0,0,27
+Mercer,'Ewing Township',1102,4231,520,225,57,238,0,3711,3572,0,139
+Mercer,'Hamilton Township',1103,542,446,0,0,446,0,96,0,0,96
+Mercer,'Hightstown Borough',1104,94,0,0,0,0,0,94,0,0,94
+Mercer,'Hopewell Borough',1105,?,?,?,?,?,?,?,?,?,?
+Mercer,'Hopewell Township',1106,10,0,0,0,0,0,10,0,0,10
+Mercer,'Lawrence Township',1107,2749,306,0,0,306,0,2443,2374,0,69
+Mercer,'Pennington Borough',1108,59,0,0,0,0,0,59,0,0,59
+Mercer,'Princeton Borough',1109,5314,49,0,0,49,0,5265,5259,0,6
+Mercer,'Princeton Township',1110,257,182,0,0,182,0,75,0,0,75
+Mercer,Trenton,1111,5123,4250,3054,30,1166,0,873,0,0,873
+Mercer,'Robbinsville Township',1112,88,66,0,0,66,0,22,0,0,22
+Mercer,'West Windsor Township',1113,239,174,0,0,174,0,65,49,0,16
+Middlesex,'Carteret Borough',1201,9,0,0,0,0,0,9,0,0,9
+Middlesex,'Cranbury Township',1202,130,120,0,0,120,0,10,0,0,10
+Middlesex,'Dunellen Borough',1203,11,0,0,0,0,0,11,0,0,11
+Middlesex,'East Brunswick Township',1204,235,221,0,0,221,0,14,0,0,14
+Middlesex,'Edison Township',1205,1964,1147,0,10,1135,2,817,110,0,707
+Middlesex,'Helmetta Borough',1206,?,?,?,?,?,?,?,?,?,?
+Middlesex,'Highland Park Borough',1207,6,0,0,0,0,0,6,0,0,6
+Middlesex,'Jamesburg Borough',1208,14,0,0,0,0,0,14,0,0,14
+Middlesex,'Metuchen Borough',1209,1,0,0,0,0,0,1,0,0,1
+Middlesex,'Middlesex Borough',1210,18,0,0,0,0,0,18,0,0,18
+Middlesex,'Milltown Borough',1211,1,0,0,0,0,0,1,0,0,1
+Middlesex,'Monroe Township',1212,779,600,0,238,362,0,179,0,0,179
+Middlesex,'New Brunswick',1213,7745,182,19,16,147,0,7563,7272,0,291
+Middlesex,'North Brunswick Township',1214,1121,1057,989,68,0,0,64,38,0,26
+Middlesex,'Old Bridge Township',1215,504,394,0,0,394,0,110,0,0,110
+Middlesex,'Perth Amboy',1216,667,445,0,0,445,0,222,0,0,222
+Middlesex,'Piscataway Township',1217,6504,105,0,6,73,26,6399,6346,0,53
+Middlesex,'Plainsboro Township',1218,194,187,0,0,187,0,7,0,0,7
+Middlesex,'Sayreville Borough',1219,200,193,0,0,193,0,7,0,0,7
+Middlesex,'South Amboy',1220,?,?,?,?,?,?,?,?,?,?
+Middlesex,'South Brunswick Township',1221,56,51,0,0,51,0,5,0,0,5
+Middlesex,'South Plainfield Borough',1222,299,231,0,0,231,0,68,0,0,68
+Middlesex,'South River Borough',1223,11,0,0,0,0,0,11,0,0,11
+Middlesex,'Spotswood Borough',1224,246,0,0,0,0,0,246,0,0,246
+Middlesex,'Woodbridge Township',1225,3120,3091,2957,28,106,0,29,0,0,29
+Monmouth,'Aberdeen Township',1301,69,21,0,21,0,0,48,0,0,48
+Monmouth,'Allenhurst Borough',1302,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Allentown Borough',1303,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Asbury Park',1304,303,0,0,0,0,0,303,0,0,303
+Monmouth,'Atlantic Highlands Borough',1305,1,0,0,0,0,0,1,0,0,1
+Monmouth,'Avon-by-the-Sea Borough',1306,1,0,0,0,0,0,1,0,0,1
+Monmouth,'Belmar Borough',1307,15,0,0,0,0,0,15,0,0,15
+Monmouth,'Bradley Beach Borough',1308,5,0,0,0,0,0,5,0,0,5
+Monmouth,'Brielle Borough',1309,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Colts Neck Township',1310,40,0,0,0,0,0,40,0,40,0
+Monmouth,'Deal Borough',1311,2,0,0,0,0,0,2,0,0,2
+Monmouth,'Eatontown Borough',1312,392,153,0,0,153,0,239,0,214,25
+Monmouth,'Englishtown Borough',1313,82,82,0,0,82,0,0,0,0,0
+Monmouth,'Fair Haven Borough',1314,1,0,0,0,0,0,1,0,0,1
+Monmouth,'Farmingdale Borough',1315,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Freehold Borough',1316,109,0,0,0,0,0,109,0,0,109
+Monmouth,'Freehold Township',1317,1635,1601,1305,18,278,0,34,0,0,34
+Monmouth,'Hazlet Township',1318,195,181,0,0,181,0,14,0,0,14
+Monmouth,'Highlands Borough',1319,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Holmdel Township',1320,441,434,0,0,434,0,7,0,0,7
+Monmouth,'Howell Township',1321,116,6,0,6,0,0,110,45,0,65
+Monmouth,'Interlaken Borough',1322,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Keansburg Borough',1323,274,265,0,0,265,0,9,0,0,9
+Monmouth,'Keyport Borough',1324,36,0,0,0,0,0,36,0,0,36
+Monmouth,'Little Silver Borough',1325,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Loch Arbour Village',1326,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Long Branch',1327,184,75,0,0,70,5,109,39,0,70
+Monmouth,'Manalapan Township',1328,186,119,0,0,119,0,67,0,0,67
+Monmouth,'Manasquan Borough',1329,5,0,0,0,0,0,5,0,0,5
+Monmouth,'Marlboro Township',1330,66,12,0,12,0,0,54,0,0,54
+Monmouth,'Matawan Borough',1331,101,96,0,0,96,0,5,0,0,5
+Monmouth,'Middletown Township',1332,225,102,0,0,102,0,123,0,16,107
+Monmouth,'Millstone Township',1333,15,0,0,0,0,0,15,0,0,15
+Monmouth,'Monmouth Beach Borough',1334,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Neptune Township',1335,81,81,0,0,81,0,0,0,0,0
+Monmouth,'Neptune City Borough',1336,467,423,0,2,421,0,44,0,0,44
+Monmouth,'Ocean Township',1337,23,0,0,0,0,0,23,0,0,23
+Monmouth,'Oceanport Borough',1338,75,0,0,0,0,0,75,0,54,21
+Monmouth,'Red Bank Borough',1339,208,150,0,0,150,0,58,0,0,58
+Monmouth,'Roosevelt Borough',1340,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Rumson Borough',1341,12,0,0,0,0,0,12,0,0,12
+Monmouth,'Sea Bright Borough',1342,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Sea Girt Borough',1343,1,0,0,0,0,0,1,0,0,1
+Monmouth,'Shrewsbury Borough',1344,187,62,0,0,62,0,125,0,0,125
+Monmouth,'Shrewsbury Township',1345,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Lake Como Borough',1346,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Spring Lake Borough',1347,9,0,0,0,0,0,9,0,0,9
+Monmouth,'Spring Lake Heights Borough',1348,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Tinton Falls Borough',1349,249,153,0,0,153,0,96,0,0,96
+Monmouth,'Union Beach Borough',1350,4,0,0,0,0,0,4,0,0,4
+Monmouth,'Upper Freehold Township',1351,?,?,?,?,?,?,?,?,?,?
+Monmouth,'Wall Township',1352,350,329,0,13,316,0,21,0,0,21
+Monmouth,'West Long Branch Borough',1353,1505,0,0,0,0,0,1505,1499,0,6
+Morris,Boonton,1401,126,69,0,0,69,0,57,0,0,57
+Morris,'Boonton Township',1402,93,93,0,0,93,0,0,0,0,0
+Morris,'Butler Borough',1403,24,0,0,0,0,0,24,0,0,24
+Morris,'Chatham Borough',1404,26,25,0,0,25,0,1,0,0,1
+Morris,'Chatham Township',1405,107,102,0,0,102,0,5,0,0,5
+Morris,'Chester Borough',1406,19,0,0,0,0,0,19,0,0,19
+Morris,'Chester Township',1407,50,0,0,0,0,0,50,0,0,50
+Morris,'Denville Township',1408,101,81,0,14,67,0,20,0,0,20
+Morris,Dover,1409,284,180,0,0,155,25,104,14,0,90
+Morris,'East Hanover Township',1410,10,0,0,0,0,0,10,0,0,10
+Morris,'Florham Park Borough',1411,1779,0,0,0,0,0,1779,1730,0,49
+Morris,'Hanover Township',1412,30,0,0,0,0,0,30,0,0,30
+Morris,'Harding Township',1413,?,?,?,?,?,?,?,?,?,?
+Morris,'Jefferson Township',1414,37,0,0,0,0,0,37,0,0,37
+Morris,'Kinnelon Borough',1415,3,0,0,0,0,0,3,0,0,3
+Morris,'Lincoln Park Borough',1416,660,645,0,0,645,0,15,0,0,15
+Morris,'Madison Borough',1417,1710,91,0,0,91,0,1619,1511,0,108
+Morris,'Mendham Borough',1418,266,182,0,70,112,0,84,0,0,84
+Morris,'Mendham Township',1419,26,0,0,0,0,0,26,0,0,26
+Morris,'Mine Hill Township',1420,?,?,?,?,?,?,?,?,?,?
+Morris,'Montville Township',1421,213,173,0,0,173,0,40,14,0,26
+Morris,'Morris Township',1422,63,58,0,0,0,58,5,0,0,5
+Morris,'Morris Plains Borough',1423,1348,770,411,36,323,0,578,258,0,320
+Morris,Morristown,1424,622,353,0,18,335,0,269,0,0,269
+Morris,'Mountain Lakes Borough',1425,29,0,0,0,0,0,29,0,0,29
+Morris,'Mount Arlington Borough',1426,?,?,?,?,?,?,?,?,?,?
+Morris,'Mount Olive Township',1427,4,0,0,0,0,0,4,0,0,4
+Morris,'Netcong Borough',1428,1,0,0,0,0,0,1,0,0,1
+Morris,'Parsippany-Troy Hills Township',1429,870,733,0,0,250,483,137,0,0,137
+Morris,'Long Hill Township',1430,24,0,0,0,0,0,24,0,0,24
+Morris,'Pequannock Township',1431,17,0,0,0,0,0,17,0,0,17
+Morris,'Randolph Township',1432,26,0,0,0,0,0,26,0,0,26
+Morris,'Riverdale Borough',1433,?,?,?,?,?,?,?,?,?,?
+Morris,'Rockaway Borough',1434,10,0,0,0,0,0,10,0,0,10
+Morris,'Rockaway Township',1435,9,0,0,0,0,0,9,0,0,9
+Morris,'Roxbury Township',1436,121,73,0,0,73,0,48,0,0,48
+Morris,'Victory Gardens Borough',1437,?,?,?,?,?,?,?,?,?,?
+Morris,'Washington Township',1438,150,115,0,0,115,0,35,0,0,35
+Morris,'Wharton Borough',1439,8,0,0,0,0,0,8,2,0,6
+Ocean,'Barnegat Township',1501,9,0,0,0,0,0,9,0,9,0
+Ocean,'Barnegat Light Borough',1502,118,109,0,0,109,0,9,0,0,9
+Ocean,'Bay Head Borough',1503,1,0,0,0,0,0,1,0,0,1
+Ocean,'Beach Haven Borough',1504,3,0,0,0,0,0,3,0,0,3
+Ocean,'Beachwood Borough',1505,14,0,0,0,0,0,14,0,0,14
+Ocean,'Berkeley Township',1506,582,568,0,0,568,0,14,0,0,14
+Ocean,'Brick Township',1507,699,582,0,27,555,0,117,0,0,117
+Ocean,'Toms River Township',1508,1439,1343,526,42,775,0,96,0,0,96
+Ocean,'Eagleswood Township',1509,?,?,?,?,?,?,?,?,?,?
+Ocean,'Harvey Cedars Borough',1510,?,?,?,?,?,?,?,?,?,?
+Ocean,'Island Heights Borough',1511,?,?,?,?,?,?,?,?,?,?
+Ocean,'Jackson Township',1512,432,420,0,9,411,0,12,0,0,12
+Ocean,'Lacey Township',1513,50,26,0,26,0,0,24,0,0,24
+Ocean,'Lakehurst Borough',1514,?,?,?,?,?,?,?,?,?,?
+Ocean,'Lakewood Township',1515,2360,693,14,0,679,0,1667,1261,0,406
+Ocean,'Lavallette Borough',1516,?,?,?,?,?,?,?,?,?,?
+Ocean,'Little Egg Harbor Township',1517,269,269,0,0,269,0,0,0,0,0
+Ocean,'Long Beach Township',1518,?,?,?,?,?,?,?,?,?,?
+Ocean,'Manchester Township',1519,775,674,0,0,644,30,101,0,0,101
+Ocean,'Mantoloking Borough',1520,9,5,0,5,0,0,4,0,0,4
+Ocean,'Ocean Township',1521,?,?,?,?,?,?,?,?,?,?
+Ocean,'Ocean Gate Borough',1522,4,0,0,0,0,0,4,0,0,4
+Ocean,'Pine Beach Borough',1523,6,0,0,0,0,0,6,0,0,6
+Ocean,'Plumsted Township',1524,6,0,0,0,0,0,6,0,0,6
+Ocean,'Point Pleasant Borough',1525,106,0,0,0,0,0,106,0,0,106
+Ocean,'Point Pleasant Beach Borough',1526,91,91,0,0,91,0,0,0,0,0
+Ocean,'Seaside Heights Borough',1527,2,0,0,0,0,0,2,0,0,2
+Ocean,'Seaside Park Borough',1528,?,?,?,?,?,?,?,?,?,?
+Ocean,'Ship Bottom Borough',1529,?,?,?,?,?,?,?,?,?,?
+Ocean,'South Toms River Borough',1530,?,?,?,?,?,?,?,?,?,?
+Ocean,'Stafford Township',1531,180,176,0,0,176,0,4,0,0,4
+Ocean,'Surf City Borough',1532,?,?,?,?,?,?,?,?,?,?
+Ocean,'Tuckerton Borough',1533,8,0,0,0,0,0,8,0,0,8
+Passaic,'Bloomingdale Borough',1601,121,116,0,0,116,0,5,0,0,5
+Passaic,Clifton,1602,254,192,0,10,182,0,62,0,0,62
+Passaic,'Haledon Borough',1603,38,0,0,0,0,0,38,0,0,38
+Passaic,'Hawthorne Borough',1604,22,0,0,0,0,0,22,0,0,22
+Passaic,'Little Falls Township',1605,3232,0,0,0,0,0,3232,3230,0,2
+Passaic,'North Haledon Borough',1606,68,45,0,0,45,0,23,0,0,23
+Passaic,Passaic,1607,458,232,0,8,224,0,226,169,0,57
+Passaic,Paterson,1608,2628,1353,1068,73,212,0,1275,0,0,1275
+Passaic,'Pompton Lakes Borough',1609,19,0,0,0,0,0,19,0,0,19
+Passaic,'Prospect Park Borough',1610,2,0,0,0,0,0,2,0,0,2
+Passaic,'Ringwood Borough',1611,90,39,0,8,31,0,51,0,0,51
+Passaic,'Totowa Borough',1612,477,65,0,27,38,0,412,0,0,412
+Passaic,'Wanaque Borough',1613,448,383,0,0,383,0,65,0,0,65
+Passaic,'Wayne Township',1614,2788,764,0,4,760,0,2024,1971,0,53
+Passaic,'West Milford Township',1615,282,97,0,0,97,0,185,26,0,159
+Passaic,'Woodland Park Borough',1616,92,5,0,5,0,0,87,80,0,7
+Salem,'Alloway Township',1701,79,54,0,54,0,0,25,0,0,25
+Salem,'Carneys Point Township',1702,350,344,0,0,344,0,6,0,0,6
+Salem,'Elmer Borough',1703,?,?,?,?,?,?,?,?,?,?
+Salem,'Elsinboro Township',1704,6,6,0,6,0,0,0,0,0,0
+Salem,'Lower Alloways Creek Township',1705,4,0,0,0,0,0,4,0,0,4
+Salem,'Mannington Township',1706,374,365,287,0,78,0,9,0,0,9
+Salem,'Oldmans Township',1707,7,0,0,0,0,0,7,0,0,7
+Salem,'Penns Grove Borough',1708,8,0,0,0,0,0,8,0,0,8
+Salem,'Pennsville Township',1709,?,?,?,?,?,?,?,?,?,?
+Salem,'Pilesgrove Township',1710,117,98,0,0,98,0,19,0,0,19
+Salem,'Pittsgrove Township',1711,136,97,0,38,59,0,39,0,0,39
+Salem,'Quinton Township',1712,?,?,?,?,?,?,?,?,?,?
+Salem,Salem,1713,58,0,0,0,0,0,58,0,0,58
+Salem,'Upper Pittsgrove Township',1714,98,55,0,0,55,0,43,3,0,40
+Salem,'Woodstown Borough',1715,20,0,0,0,0,0,20,0,0,20
+Somerset,'Bedminster Township',1801,106,0,0,0,0,0,106,100,0,6
+Somerset,'Bernards Township',1802,741,488,0,91,326,71,253,13,0,240
+Somerset,'Bernardsville Borough',1803,6,0,0,0,0,0,6,0,0,6
+Somerset,'Bound Brook Borough',1804,22,0,0,0,0,0,22,0,0,22
+Somerset,'Branchburg Township',1805,15,0,0,0,0,0,15,0,0,15
+Somerset,'Bridgewater Township',1806,599,501,0,21,480,0,98,0,0,98
+Somerset,'Far Hills Borough',1807,?,?,?,?,?,?,?,?,?,?
+Somerset,'Franklin Township',1808,1094,622,0,15,607,0,472,366,0,106
+Somerset,'Green Brook Township',1809,178,160,0,0,160,0,18,0,0,18
+Somerset,'Hillsborough Township',1810,162,117,0,0,117,0,45,0,0,45
+Somerset,'Manville Borough',1811,2,0,0,0,0,0,2,0,0,2
+Somerset,'Millstone Borough',1812,?,?,?,?,?,?,?,?,?,?
+Somerset,'Montgomery Township',1813,139,116,0,0,51,65,23,0,0,23
+Somerset,'North Plainfield Borough',1814,30,0,0,0,0,0,30,0,0,30
+Somerset,'Peapack-Gladstone Borough',1815,171,101,0,0,0,101,70,0,0,70
+Somerset,'Raritan Borough',1816,8,0,0,0,0,0,8,0,0,8
+Somerset,'Rocky Hill Borough',1817,11,0,0,0,0,0,11,0,0,11
+Somerset,'Somerville Borough',1818,449,273,273,0,0,0,176,0,0,176
+Somerset,'South Bound Brook Borough',1819,12,0,0,0,0,0,12,0,0,12
+Somerset,'Warren Township',1820,107,76,0,0,0,76,31,0,0,31
+Somerset,'Watchung Borough',1821,118,69,0,0,69,0,49,0,0,49
+Sussex,'Andover Borough',1901,?,?,?,?,?,?,?,?,?,?
+Sussex,'Andover Township',1902,736,710,0,39,671,0,26,0,0,26
+Sussex,'Branchville Borough',1903,5,0,0,0,0,0,5,0,0,5
+Sussex,'Byram Township',1904,5,5,0,5,0,0,0,0,0,0
+Sussex,'Frankford Township',1905,122,97,0,0,97,0,25,0,0,25
+Sussex,'Franklin Borough',1906,23,0,0,0,0,0,23,0,0,23
+Sussex,'Fredon Township',1907,13,4,0,4,0,0,9,0,0,9
+Sussex,'Green Township',1908,11,0,0,0,0,0,11,0,0,11
+Sussex,'Hamburg Borough',1909,4,0,0,0,0,0,4,0,0,4
+Sussex,'Hampton Township',1910,37,5,0,5,0,0,32,0,0,32
+Sussex,'Hardyston Township',1911,4,0,0,0,0,0,4,0,0,4
+Sussex,'Hopatcong Borough',1912,18,0,0,0,0,0,18,0,0,18
+Sussex,'Lafayette Township',1913,41,5,0,5,0,0,36,0,0,36
+Sussex,'Montague Township',1914,6,2,0,2,0,0,4,0,0,4
+Sussex,Newton,1915,573,482,174,5,303,0,91,0,0,91
+Sussex,'Ogdensburg Borough',1916,?,?,?,?,?,?,?,?,?,?
+Sussex,'Sandyston Township',1917,?,?,?,?,?,?,?,?,?,?
+Sussex,'Sparta Township',1918,38,22,0,0,22,0,16,0,0,16
+Sussex,'Stanhope Borough',1919,10,0,0,0,0,0,10,0,0,10
+Sussex,'Stillwater Township',1920,?,?,?,?,?,?,?,?,?,?
+Sussex,'Sussex Borough',1921,45,0,0,0,0,0,45,0,0,45
+Sussex,'Vernon Township',1922,46,0,0,0,0,0,46,0,0,46
+Sussex,'Walpack Township',1923,?,?,?,?,?,?,?,?,?,?
+Sussex,'Wantage Township',1924,5,0,0,0,0,0,5,0,0,5
+Union,'Berkeley Heights Township',2001,425,422,0,0,422,0,3,0,0,3
+Union,'Clark Township',2002,137,126,0,0,126,0,11,0,0,11
+Union,'Cranford Township',2003,258,239,0,0,239,0,19,0,0,19
+Union,Elizabeth,2004,2545,1833,1098,20,398,317,712,0,0,712
+Union,'Fanwood Borough',2005,8,0,0,0,0,0,8,0,0,8
+Union,'Garwood Borough',2006,?,?,?,?,?,?,?,?,?,?
+Union,'Hillside Township',2007,12,0,0,0,0,0,12,0,0,12
+Union,'Kenilworth Borough',2008,8,0,0,0,0,0,8,0,0,8
+Union,Linden,2009,245,242,0,28,214,0,3,0,0,3
+Union,'Mountainside Borough',2010,159,152,0,44,108,0,7,0,0,7
+Union,'New Providence Borough',2011,133,96,0,0,96,0,37,0,0,37
+Union,Plainfield,2012,732,342,0,15,327,0,390,34,0,356
+Union,Rahway,2013,124,109,0,0,109,0,15,0,0,15
+Union,'Roselle Borough',2014,30,0,0,0,0,0,30,0,0,30
+Union,'Roselle Park Borough',2015,2,0,0,0,0,0,2,0,0,2
+Union,'Scotch Plains Township',2016,125,101,0,0,80,21,24,0,0,24
+Union,'Springfield Township',2017,10,0,0,0,0,0,10,0,0,10
+Union,Summit,2018,121,75,0,0,0,75,46,0,0,46
+Union,'Union Township',2019,1510,268,0,0,268,0,1242,1232,0,10
+Union,Westfield,2020,220,204,0,0,204,0,16,0,0,16
+Union,'Winfield Township',2021,?,?,?,?,?,?,?,?,?,?
+Warren,'Allamuchy Township',2101,4,0,0,0,0,0,4,0,0,4
+Warren,'Alpha Borough',2102,9,0,0,0,0,0,9,0,0,9
+Warren,Belvidere,2103,23,0,0,0,0,0,23,0,0,23
+Warren,'Blairstown Township',2104,70,0,0,0,0,0,70,0,0,70
+Warren,'Franklin Township',2105,8,0,0,0,0,0,8,0,0,8
+Warren,'Frelinghuysen Township',2106,130,107,0,0,107,0,23,0,0,23
+Warren,'Greenwich Township',2107,3,0,0,0,0,0,3,0,0,3
+Warren,Hackettstown,2108,852,158,0,0,158,0,694,681,0,13
+Warren,'Hardwick Township',2109,55,0,0,0,0,0,55,0,0,55
+Warren,'Harmony Township',2110,20,20,0,0,20,0,0,0,0,0
+Warren,'Hope Township',2111,?,?,?,?,?,?,?,?,?,?
+Warren,'Independence Township',2112,7,5,0,5,0,0,2,0,0,2
+Warren,'Knowlton Township',2113,35,29,0,0,29,0,6,0,0,6
+Warren,'Liberty Township',2114,32,5,0,5,0,0,27,0,0,27
+Warren,'Lopatcong Township',2115,288,273,0,0,273,0,15,0,0,15
+Warren,'Mansfield Township',2116,177,172,0,0,172,0,5,0,0,5
+Warren,'Oxford Township',2117,12,0,0,0,0,0,12,0,0,12
+Warren,Phillipsburg,2119,73,63,0,6,57,0,10,0,0,10
+Warren,'Pohatcong Township',2120,?,?,?,?,?,?,?,?,?,?
+Warren,'Washington Borough',2121,?,?,?,?,?,?,?,?,?,?
+Warren,'Washington Township',2122,6,0,0,0,0,0,6,0,0,6
+Warren,'White Township',2123,164,153,135,18,0,0,11,0,0,11
