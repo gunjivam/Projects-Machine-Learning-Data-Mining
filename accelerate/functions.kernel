@@ -1,0 +1,102 @@
+void kernel add(global const float* a, global const float* b, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = a[gid] + b[gid]; 
+}
+
+void kernel sub(global const float* a, global const float* b, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = a[gid] - b[gid]; 
+}
+
+void kernel mult(global const float* a, global const float* b, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = a[gid] * b[gid]; 
+}
+
+void kernel scale(global const float* a, float val, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = a[gid] * val; 
+}
+
+void kernel shift(global const float* a, float val, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = a[gid] + val; 
+}
+
+void kernel negate(global const float* a, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = -a[gid]; 
+}
+
+void kernel raise(global const float* a, float val, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = pow(val, a[gid]); 
+}
+
+void kernel pow(global const float* a, float val, global float* c){
+				int gid = get_global_id(0); 
+				c[gid] = pow(a[gid], val); 
+}
+
+
+void kernel init_vec(float val, global float* c, global float* d){
+				int gid = get_global_id(0); 
+				c[gid] = val; 
+				d[gid] = 1;
+}
+
+void kernel sigmoid(global const float* a, global float* c, global float* d){
+				int gid = get_global_id(0);
+				float m_e = 2.718281828459045;
+				float v = 1 / (1 + pow(m_e, -a[gid]));
+				c[gid] =  v;
+				d[gid] =  v*(1-v);
+}
+
+void kernel tanh(global const float* a, global float* c, global float* d){
+				int gid = get_global_id(0);
+				float m_e = 2.718281828459045;
+				float v = (pow(m_e, a[gid]) - pow(m_e, -a[gid]))/(pow(m_e, a[gid]) + pow(m_e, -a[gid]));
+				c[gid] =  v;
+				d[gid] =  1 - pow(v, 2);
+}
+
+
+void kernel relu(global const float* a, global float* c, global float* d){
+				int gid = get_global_id(0);
+				if(a[gid] < 0){
+					c[gid] = 0;
+					d[gid] = 0;
+				}else{
+					c[gid] = a[gid];
+					d[gid] = 1;
+				}
+}
+
+void kernel leaky_relu(global const float* a, float val, global float* c, global float* d){
+				int gid = get_global_id(0);
+				if(a[gid] < 0){
+					c[gid] = val*a[gid];
+					d[gid] = val;
+				}else{
+					c[gid] = a[gid];
+					d[gid] = 1;
+				}
+}
+
+void kernel softplus(global const float* a, global float* c, global float* d){
+				int gid = get_global_id(0);
+				float m_e = 2.718281828459045;
+				c[gid] =  log(1+ pow(m_e, a[gid]));
+				d[gid] = 1 / (1 + pow(m_e, -a[gid]));
+}
+
+void kernel softmax(global const float* a, float val, global float* c, global float* d){
+				int gid = get_global_id(0);
+				float m_e = 2.718281828459045;
+				if(val != 0){
+					float v = pow(m_e, a[gid])/ val;
+					c[gid] =  v;
+					d[gid] = v*(1 - v);
+				}
+}
